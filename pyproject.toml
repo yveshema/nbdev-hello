@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nbdev-hello"
+version = "0.1.0"
+description = "Getting started with nbdev"
+authors = ["Yves Rene Shema <rysapptech@gmail.com>"]
+readme = "README.md"
+packages = [{include = "nbdev_hello"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+nbdev = "^2.3.12"
+jupyterlab = "^4.0.2"
+jupyterlab-quarto = "^0.2.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
