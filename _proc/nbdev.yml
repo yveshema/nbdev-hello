@@ -5,5 +5,5 @@ website:
   title: "nbdev-hello"
   site-url: "https://yveshema.github.io/nbdev-hello"
   description: "Getting started with nbdev"
-  repo-branch: main
+  repo-branch: gh-pages
   repo-url: "https://github.com/yveshema/nbdev-hello"
