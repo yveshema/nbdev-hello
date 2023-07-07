@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "hello.html#examples",
+    "href": "hello.html#examples",
+    "title": "hello",
+    "section": "Examples",
+    "text": "Examples\n\nsay_hello('Test')\n\n'Hello Test!'"
+  },
+  {
+    "objectID": "hello.html#tests",
+    "href": "hello.html#tests",
+    "title": "hello",
+    "section": "Tests",
+    "text": "Tests\n\nassert say_hello('Batman') == 'Hello Batman!'\n\n\nfrom fastcore.test import *\n\ntest_eq(say_hello('Robin'), 'Hello Robin!')"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev-hello",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev-hello",
+    "section": "Install",
+    "text": "Install\npip install nbdev_hello"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev-hello",
+    "section": "How to use",
+    "text": "How to use\n\nfrom nbdev_hello.hello import say_hello\n\nsay_hello('Awesome Developer')"
+  }
+]
